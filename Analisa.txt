@@ -1,0 +1,5 @@
+Kesimpulan Analisis
+Kategori	Multithread	Singlethread
+Keunggulan utama	Mampu melayani banyak client sekaligus.	Struktur kode sederhana dan stabil.
+Kelemahan utama	Konsumsi memori lebih besar dan potensi bug antar-thread.	Tidak efisien jika banyak request.
+Kapan digunakan?	Saat aplikasi memerlukan banyak koneksi paralel (contoh: chat server, API server).	Saat pengujian dasar komunikasi atau aplikasi satu pengguna.
